@@ -1,1 +1,5 @@
 # SUmmerR
+
+## --bug--fixes---
+
+## functions 
