@@ -2,11 +2,24 @@
 
 ## Instruções:
 
+- baixe o código;
+- extraia o zip;   
 - rode o comando ``` fpc summer.pas ```
 - rode o comando ``` ./summer ``` 
 - os 2 comandos devem ser rodados na pasta onde esta o código;         
 
 ## functions 
 
-- pilulas: registros ocorrentes e precificados na criptomoeda.
-- adm, folder, log, history : comentario de inserçao das pilulas.          
+- pilulas: arquivos registro dos acontecimento.
+- adm, folder, log, history : comentario dos acontecimentos divididos por pasta, log e folder. Com direito a comentario.     
+
+## pilulas(files)
+
+- proch ; registro do ocorrido.
+- dodd-i : correlaçoes;
+- dodd-c : correlaçao com identificador;
+- pppd : link;
+- idfil : registro e baixa do estagiario
+
+O.B.S.: lembre de sempre  anotar tudo no adm ia.           
+
