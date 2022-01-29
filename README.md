@@ -23,3 +23,9 @@
 
 O.B.S.: lembre de sempre  anotar tudo no adm ia.           
 
+## stack configuraçao:
+
+- stack: fpc/pascal/geany
+- execute: ./%e
+- compilar: fpc "%f"
+- make object: make %e.o       
