@@ -5,6 +5,10 @@
 
 - Summmer é uma gerenciadora de pacotes .DAT e .REG a serviço de laboratorios para emergencias. Como consulta de soluçao.
 
+## Termos:
+
+-  link: https://github.com/abel8259/term_of_privacy_rs_UPDATED
+
 ## Como eu a utilizo:  
 
 -   Eu, rock, como desenvolvedor a utilizo no meu lab como estagiaria daqui. Ela fica responsavel por grande parte das coisas  restringidas a erros.
