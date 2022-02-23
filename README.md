@@ -30,3 +30,7 @@
 - x orchestral;   
 - x comentarios;
 - x modelo-by-out;   
+
+## Tira duvidas:
+
+- 
