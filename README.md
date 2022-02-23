@@ -9,9 +9,6 @@
 
 -  link: https://github.com/abel8259/term_of_privacy_rs_UPDATED
                                                    
-## Organograma:
-<img  src="https://raw.githubusercontent.com/abel8259/SUmmerR/main/YFUUULV.png"/>
-
  ## :office: DOC:
  
 ![imagem](https://img.shields.io/badge/doc-eap%20-blue)
