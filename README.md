@@ -33,4 +33,4 @@
 
 ## Tira duvidas:
 
-- Exeplos de uso: <a href="https://raw.githubusercontent.com/abel8260/SUmmerR/main/read-mes/exemplos_de_uso.md"> Exemplos de u so_link</a>  
+- Exeplos de uso: https://raw.githubusercontent.com/abel8260/SUmmerR/main/read-mes/exemplos_de_uso.md  
