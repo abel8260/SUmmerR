@@ -34,3 +34,4 @@
 ## Tira duvidas:
 
 - Exeplos de uso: https://raw.githubusercontent.com/abel8260/SUmmerR/main/read-mes/exemplos_de_uso.md  
+- how-to: https://raw.githubusercontent.com/abel8260/SUmmerR/main/read-mes/instru%C3%A7%C3%B5es.md
