@@ -11,16 +11,16 @@
                                                    
  ## :office: DOC:
  
-![imagem](https://img.shields.io/badge/doc-eap%20-blue)
-![imagem](https://img.shields.io/badge/doc-itil%20-blue)
-![imagem](https://img.shields.io/badge/doc-kpi%20-blue)
-![imagem](https://img.shields.io/badge/doc-pdca%20-blue)
-![imagem](https://img.shields.io/badge/doc-pmbok%20-blue)
-![imagem](https://img.shields.io/badge/doc-google%20-orange) 
-![imagem](https://img.shields.io/badge/doc-semrush%20-orange) 
-![imagem](https://img.shields.io/badge/doc-sla%20-orange) 
-![imagem](https://img.shields.io/badge/doc-smart15%20-blue) 
-![imagem](https://img.shields.io/badge/doc-sow%20-blue) 
+-   X   ![imagem](https://img.shields.io/badge/doc-eap%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-itil%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-kpi%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-pdca%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-pmbok%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-google%20-orange) 
+-   X   ![imagem](https://img.shields.io/badge/doc-semrush%20-orange) 
+-   X   ![imagem](https://img.shields.io/badge/doc-sla%20-orange) 
+-   X   ![imagem](https://img.shields.io/badge/doc-smart15%20-blue) 
+-   X   ![imagem](https://img.shields.io/badge/doc-sow%20-blue) 
 
 ***
 ## Qualidade de software:
