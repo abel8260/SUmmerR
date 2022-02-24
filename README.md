@@ -30,7 +30,9 @@
 - x orchestral;   
 - x comentarios;
 - x modelo-by-out; 
--   
+
+* X - significa que n foi feito ainda
+      
 ### Roadmap:
 
 - WIKI: WIP
