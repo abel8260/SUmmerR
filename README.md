@@ -29,8 +29,10 @@
 - x qualidade;
 - x orchestral;   
 - x comentarios;
-- x modelo-by-out;   
+- x modelo-by-out; 
+-   
 ### Roadmap:
+
 - WIKI: WIP
 - Newsletter: WIP
 - perfil de projeto(feature-v-8-0): WIP
@@ -39,6 +41,6 @@
 - Exeplos de uso: https://raw.githubusercontent.com/abel8260/SUmmerR/main/read-mes/exemplos_de_uso.md  
 - how-to: https://raw.githubusercontent.com/abel8260/SUmmerR/main/read-mes/instru%C3%A7%C3%B5es.md
 - grafico da estrutura do database: https://raw.githubusercontent.com/abel8259/SUmmerR/main/YFUUULV.png 
-## Tira duvidas:
+
 
      
