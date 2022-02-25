@@ -116,4 +116,4 @@ unit dir;{unit dasummer;}
 				END;{fim}
 				{VAZIO}
 			end.{fim}
-		//readln(MyFile, name_idt);
+		
