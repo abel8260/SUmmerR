@@ -8,7 +8,7 @@ unit dir;{unit dir;}
             * program . Program é o termo pré uso do código inicial em 
             * pascal.                    
             * }
-    {VAZIO}  
+{VAZIO}  
 	interface{interface de dialogo do software com o cliente I/O}
 	{VAZIO} 
 	{EXPLICAÇAO:
