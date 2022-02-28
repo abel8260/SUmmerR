@@ -18,12 +18,12 @@ unit dir;{unit dir;}
 	        * seja ele virtual."       
 	        * fonte: (https://pt.wikipedia.org/wiki/Interface)  .
             * }
-    {VAZIO} 
+        {VAZIO} 
 	{INICIO-BLOCO}
 		procedure Menudirte();{identificador do procedimento} 
-    {FIM-BLOCO}
-	{VAZIO} 
-	{EXPLICAÇAO:  
+        {FIM-BLOCO}
+        {VAZIO} 
+        {EXPLICAÇAO:  
             * PROCEDURE é o termo pré-uso do procedimento em pascal.        
             * Procedimento é um bloco de código referido de fora dele 
             * nao retornando por si só. O contrario de sua variante                      
@@ -200,6 +200,6 @@ unit dir;{unit dir;}
 						*  }
 				{VAZIO}	//vazio inicio {VAZIO}	    
 		      {VAZIO}{VAZIO}{VAZIO}
-			END;{fim}{VAZIO}{VAZIO}
+		      END;{fim}{VAZIO}{VAZIO}
 		  {VAZIO}//vazio fim  {VAZIO}
 		end.{fim}
