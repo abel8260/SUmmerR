@@ -71,49 +71,135 @@ unit dir;{unit dasummer;}
             {VAZIO}      
 				name_idt : string; 
 				MyFile: text;
-
+			{VAZIO} 
+			{EXPLICAÇAO:  
+            * name_idt é uma variavel do tipo string ou seja receve um texto e nao
+            * um caractere. Ela sera responsavel por receber o nome da pasta
+            * e o MyFile é uma varivel de código do tipo texto onde fica o nome da 
+            * pasta. O var é mais um comando para instanciar as variveis . ou declarar
+            * mesmo as variaveis.                                               * 
+            * }
+            {VAZIO}
 			BEGIN{INICIO do código do procedimento}
 				{VAZIO}
 			    {INICIO-BLOCO} 
-     	
-			        writeln('|folder:processing.');{escreve na tela ***pasta
-			        sendo processada***}      
-			        {VAZIO}	
-			        writeln('|making the subs for you: ');{fazendo os textos*} 
+     	            {VAZIO}
+     	            {INICIO-BLOCO}
+						writeln('|folder:processing.');{escreve na tela ***pasta
+						sendo processada***}      
+						{VAZIO}	
+						writeln('|making the subs for you: ');{fazendo os textos*} 
+						{VAZIO}
+	                {FIM-BLOCO}
 	                {VAZIO}
+	                {EXPLICAÇAO:  
+					* essas linhas de código descreve o estando a vir das próximas linhas
+					* em processo de sub. pondo se a escrever o texto do sub em diretorio o nome
+					* da respectiva pastaa ser nomeada. A escolha e como uma tag dentro de ua tag
+					* dentro de outra tag. de outra tag terceiraaindachamaa de historico e a segunda 
+					* de log. Mas para o próposito desse código é só o nome da pasta.                                                                   * 
+					* }
+					{VAZIO}
 	                {INICIO-BLOCO} //cripto_process
-			                        {VAZIO}
+	                
+			            {VAZIO}
 							{INICIO-BLOCO}//Escreve texto e le o nome da pasta   
 								writeln('| name of the folder:');
 								readln(name_idt);
 							{FIM-BLOCO}
-	                                        {VAZIO}
+	                    {VAZIO}
+	                    {EXPLICAÇAO:  
+						* lê o nome e escreve a mensagem de algo a ser inserido no input/output do projeto
+						* de código. O processo de crripto n eh colocado nestte espaço de dir.pas .
+						* É só nomear do variavel string do tipo texto e nao caractere se referindo 
+						* ao nome do código texto. salvo em txt. Logo logo se inscrevera em si mesmo o folder
+						* respectivo.                                                                        * 
+						* }
+						{VAZIO}
+						{VAZIO}
 							{INICIO-BLOCO}//recebe o nome do código contido a string da pasta     
 								name_idt :=  'folder-'+name_idt+'.txt';
 								assign(MyFile,name_idt);
-						{	FIM-BLOCO}
-                                                {VAZIO}
+							{FIM-BLOCO}
+                        {VAZIO}
+                        {EXPLICAÇAO:  
+						* recebe em si mesmo como o conceito c++ ou c= c+1; É um auto incremento de velho e novo estagio
+						* da varivel recomendo estudo de derivadas e cnstantes em calculo I ou caculo infinitesimal.
+						* o assign é um comando associador de titulo de código em texto. mais no sentido file da coisa.
+						* estruturaçao de códigos e enfim. Perceba o nome final ja eh esse o do código a ser interpretado 
+						* como txt.                                                                                                 * 
+						* }
+						{VAZIO}
+						{VAZIO}
 							{INICIO-BLOCO}//sessao técnica de reinicio e criaçao nao respectivamente dos códigos      
 								rewrite(MyFile); 
 								reset(MyFile);    //Reopen the file for reading
 							{FIM-BLOCO}
 						{VAZIO}
+						{EXPLICAÇAO:  
+						* rewrite inscreve o código o criando-o no workspace do pascal.pasta. chamndo sempre pela 
+						* variavel código texto MyFile. Nao estou podendo escrever ar uivo. mas enfim. vocês entendem
+						* o reset é mais para reabrir e dar acesso. Sao dois comando muito basicos mexendo com códigos
+						* texto em .txt  tanto reinicao reset como abre. Mas atençao ao rewrite. Semal usado pode 
+						* ocasionar perda do respetivo códio texto da database. Procure se fundamentarantes de usar.                                                                                                       * 
+						* }
+						{VAZIO}
+						{VAZIO}
 							{INICIO-BLOCO}//escreve o nome do código referido pelo sistema 
 								writeln('Text read from file: ', name_idt);
 							{FIM-BLOCO}
-                                                {VAZIO}
+                        {VAZIO}
+                        {EXPLICAÇAO:  
+						* este writeln(escreve(write)pula linha(ln) )é muito importante dando o feedback entrando ja na parte
+						* de teste unitarios.Atente sempre com média atençao a isso nao total pois nao merece total atençao mas como 
+						* teste é essencial. No &A existe ferramentas avançadas para teste. como html injector dentre outro como postman
+						* mas para linguagens antigas é ovelho caderno e lapis. Um dos melhores pois é totalmente persozavel e  custom
+						* UI . Uis avançadas at eh nocaderno é possivel vai depender de seus talentos de desenhista ou de escrever por cima.                                                                                                                                                                * 
+						* }
+						{VAZIO}
+						{VAZIO}
 							{INICIO-BLOCO}//atacha a variavel de código do código e inscreve no código especifico       
 								append(MyFile);//atacha   
 								writeln(MyFile, name_idt);//inscreve
 							{FIM-BLOCO} 
-                                                {VAZIO}
+                        {VAZIO}
+                        {EXPLICAÇAO:  
+						*  o append atacha e o writeln esvre e pula uma lina ddentro do texto/file.      
+						*  Neste ponto muito próximo do final os testes de  &A sao otimizadamente 
+						*  necessarios e permitidos como forma de checkin para todo list de teste unitarios
+						*  O código especifico vai depender de sintaxe do seu software . Uma letra errada e é erro.
+						*  Sendo assim ap cienca e persistencia fundamental na vida do dev.                       
+						*  }
+						{VAZIO}
+						{VAZIO}
 							{INICIO-BLOCO}
 								close(MyFile);//fecha o códido aberto  
 							{INICIO-BLOCO}
 						{VAZIO}
-		                         {FIM-BLOCO}//fim-cripto_process
-		                {VAZIO}
-				END;{fim}
-				{VAZIO}
-			end.{fim}
-		
+						{EXPLICAÇAO:  
+						*  este comando fecha ediçao teste tudo mesmo. E é digno de erros catastróficos em seu código.
+						*  Dependendo do projeto um erro nessa escala é bem elemental nao ter. é só colocar close + o 
+						*  nome da variavel do file.a varivel de código texto como chamo. Ele tambbém interrompe 
+						*  inscrições cuidado com multiplos files abertos.                                            
+						*  }
+						{VAZIO}
+		            {FIM-BLOCO}//fim-cripto_process
+		            {EXPLICAÇAO:  
+						*  Este bloco é o responsavel pelo procedimento principal do dir.pas chamdo em interface process.
+						*  Neste ponto vemos o processo de criar um identificador em texto para nome ou tag  de pasta.
+						*  Desde havendo o código temos um processo simples de criaçao de texto podendo se repetir ali o writeln
+						*  caso for de sa vontade fazer um código texto maior.                                                               
+						*  }
+		        {VAZIO}
+		        {FIM-BLOCO}
+		        {EXPLICAÇAO:  
+						*  Neste ponto temos o código em si próprio. em sua inteiridade funcionando( funfando como dizem os informaticos)
+						*  É neste ponto uma ausa parauma boa avaa çao de ux e criaçao de telas cli para  saber o trajeto e mostrar como funciona 
+						*  o projeto. Desde anuncio até homolgaçao da as a em criaçao avulsa. Temos writelns ea parte de texto código 
+						*  Unindo-as teos um software criador de files e texto-pasta reminder.                                                                           
+						*  }
+				{VAZIO}	//vazio inicio {VAZIO}	    
+		      {VAZIO}{VAZIO}{VAZIO}
+			END;{fim}{VAZIO}{VAZIO}bab 
+		  {VAZIO}//vazio fim  {VAZIO}
+		end.{fim}
