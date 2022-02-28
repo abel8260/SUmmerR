@@ -1,4 +1,4 @@
-unit dir;{unit dasummer;} 
+unit dir;{unit dir;} 
 {VAZIO} 
 	{EXPLICAÇAO:  
             * UNIT é o termo pré-uso do conceito de unidade ou modulo
