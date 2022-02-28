@@ -200,6 +200,6 @@ unit dir;{unit dasummer;}
 						*  }
 				{VAZIO}	//vazio inicio {VAZIO}	    
 		      {VAZIO}{VAZIO}{VAZIO}
-			END;{fim}{VAZIO}{VAZIO}bab 
+			END;{fim}{VAZIO}{VAZIO}
 		  {VAZIO}//vazio fim  {VAZIO}
 		end.{fim}
