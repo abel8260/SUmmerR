@@ -85,7 +85,7 @@ unit estagiario;{unit estagiario;}
 			BEGIN{INICIO do código do procedimento}
 				{VAZIO}
 			    {INICIO-BLOCO} 
-     	            {VAZIO}
+     	            {VAZIO}{VAZIO}
      	            {INICIO-BLOCO}
 						writeln('############');
 						writeln('Menu do estagiario:');
@@ -172,7 +172,7 @@ unit estagiario;{unit estagiario;}
 					* }
 					{VAZIO}
 					    {VAZIO}
-						{INICIO-BLOCO}{BLOCO-IF}  
+					{INICIO-BLOCO}{BLOCO-IF}  
 						{VAZIO}
 							if(esc = 'b') then {condiçao}  
 								Menuichamada(){modulo Menuichamada}
@@ -241,7 +241,7 @@ unit estagiario;{unit estagiario;}
 						*  else if. Por isso o fato de ser tao especial e se 
 						*  tomar tanto cuidado com o mesmo.                             
 						* }  
-				    {FIM-BLOCO}{BLOCO-IF} 
+				        {FIM-BLOCO}{BLOCO-IF} 
 				end;{fim}
-                {VAZIO} 
+                            {VAZIO} 
 			END.{fim}
