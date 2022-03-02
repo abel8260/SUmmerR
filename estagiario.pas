@@ -9,7 +9,7 @@ unit estagiario;{unit estagiario;}
             * pascal.                    
             * }
     {VAZIO} 
-		interface{interface de dialogo do software com o cliente [input e output]}
+		interface{interface de dialogo do software com o cliente --input-output}
 	{VAZIO} 
 	{EXPLICAÇAO:
 	        * "O termo em Interface é amplo, pode expressar pela 
