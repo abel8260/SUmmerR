@@ -1,19 +1,19 @@
 unit estagiario;{unit estagiario;} 
 {VAZIO} 
 	{EXPLICAÇAO:  
-            * UNIT é o termo pré-uso do conceito de unidade ou modulo
+            * UNIT é a palavra pré-uso do termo de unidade ou módulo
             * Por se tratar de uma linguagem estruturada, ou modular.
             * É um bloco muito grande de código funcionando como um 
             * código program normal. Se nao entendeu o parenter de 
-            * program . Program é o termo pré uso do código inicial em 
+            * program. Program é o termo pré uso do código inicial em 
             * pascal.                    
             * }
     {VAZIO} 
-		interface{interface de dialogo do software com o cliente I/O}
+		interface{interface de dialogo do software com o cliente [input e output]}
 	{VAZIO} 
 	{EXPLICAÇAO:
-	        * "O conceito de Interface é amplo, pode expressar pela 
-	        * presença de ferramentas para o uso e movimentação de 
+	        * "O termo em Interface é amplo, pode expressar pela 
+	        * presença de ferramentas com o uso e movimentação de 
 	        * qualquer sistema de informações, seja ele material, 
 	        * seja ele virtual."       
 	        * fonte: (https://pt.wikipedia.org/wiki/Interface)  .
@@ -24,16 +24,16 @@ unit estagiario;{unit estagiario;}
     {FIM-BLOCO}
 	{VAZIO} 
 	{EXPLICAÇAO:  
-            * PROCEDURE é o termo pré-uso do procedimento em pascal.        
+            * PROCEDURE é a palavra pré-uso desta operaçao em pascal.        
             * Procedimento é um bloco de código referido de fora dele 
-            * nao retornando por si só. O contrario de sua variante                      
-            * a funçao. Funçao retorna valores
+            * nao retornando por si mesmo. O contrario de sua variante                      
+            * a funçao. Funçao retorna valores como resultado. 
             * }
 	{VAZIO} 
 	implementation{implementaçao de código}  
 	    {VAZIO} 
 	    {EXPLICAÇAO:  
-            *  Implementação é a fase do ciclo de vida de um software 
+            *  Implementação é a tempo do ciclo de vida de um software 
             * (programa computacional, documentação e dados), no 
             * contexto de um sistema de informação, que corresponde 
             * à elaboração e preparação dos módulos necessários à sua
@@ -52,28 +52,29 @@ unit estagiario;{unit estagiario;}
 		{FIM-BLOCO}
 	    {VAZIO}    
 	    {EXPLICAÇAO:  
-            * USES é o termo pré-uso das bibliotecas de pascal      
+            * USES é a palavra pré-uso das bibliotecas de pascal      
             * por se tratar de uma linguagem modular. O nao é mesmo para
             * sua evoluçao. Neste ponto é interessante fazer a associaçao                
             * do local onde fica  a  string/código citada e o representar 
-            * dela dento do código.      
+            * dela dentro do código.      
             * }    
             {VAZIO} 
             {INICIO-BLOCO}
-	    procedure Menudoestagiario();{inicio do procedimento}
+	    procedure Menudoestagiario();{inicio do procedimento---procedimento --}
             {FIM-BLOCO}
             {VAZIO} 
             {EXPLICAÇAO:  
-            * PROCEDURE é o termo pré-uso do procedimento em pascal.        
+            * PROCEDURE é a palavra pré-uso do procedimento em pascal.        
             * Procedimento é um bloco de código referido de fora dele 
             * nao retornando por si só. O contrario de sua variante                      
-            * a funçao. Funçao retorna valores            * 
+            * a funçao. Funçao retorna valores como resultados e outros.
+            *  
             * }  
 			var esc: string; {VARIAVEIS}
             {VAZIO} 
             {VAZIO} 
 			{EXPLICAÇAO: 
-			* esc é um o nome de um local na memoria do pc onde guarda 
+			* esc é um o nome de um local na memória do pc onde guarda 
 			* uma palavra. Variaveis sao um conceito abstrato porém físico
 			* em termos de harware. Mais termos de hardware seriam necessarios
 			* para explicara especifica funçao dela porém armazenamento de memoria
@@ -95,7 +96,7 @@ unit estagiario;{unit estagiario;}
 					* texto em ASC-II formato de base das strings em pascal
 					* como o termo do menu do estagiario introduzindo o menu
 					* em termos de apresentaçao para o inicio das operaçoes 
-					* basicas de pilulas file formato.                                                                 * 
+					* basicas de pilulas file / formato.                                                                 * 
 					* }
 					{VAZIO}
 					{VAZIO}
@@ -104,8 +105,8 @@ unit estagiario;{unit estagiario;}
 					{FIM-BLOCO}
 					{VAZIO} 
 					{EXPLICAÇAO:  
-					* a interface de registro SUmmer:R  esta se apresentando 
-					* como a propria estagiaria. ou estagiario. mas summer se
+					* a interface de registro summerr  esta' se apresentando 
+					* como a propria estagiaria. ou estagiario. Mas summer se
 					* identifica como ela. A summer registra um problema tecnologia
 					* e sua respectiva soluçao como tecnologia.                                                                      * 
 					* }
@@ -117,11 +118,11 @@ unit estagiario;{unit estagiario;}
 					{VAZIO}
 					{VAZIO} 
 					{EXPLICAÇAO:  
-					* hr ou linha satisfatoria de ASC-II design para
+					* <hr/> ou linha satisfatoria de ASC-II design para
 					* separar  o subtitulo de interface do projeto SUmmer:R.
 					* O projeto vem como resposta  e o subtitulo o identifica.
 					* Facil demonstrar o poder de ia como adm em administrar
-					* como esses ifs. esperando sempre compreensao.                                                                    * 
+					* como esses ifs. Esperando sempre compreensao.                                                                    * 
 					* }
 					{VAZIO}
 			        {INICIO-BLOCO} 
@@ -135,7 +136,7 @@ unit estagiario;{unit estagiario;}
 					* b,r,g = digitos a serem digitados e teclados com enter para adicionar
 					* escola no enter. dodd é identificador de certo modo contido um no outro
 					* O proch é descrever do problema e sua seguida chamada. PRO = problema
-					* e ch = chamada. chamada veja no sentido de identificador segundo além do
+					* e ch = chamada. Chamada veja no sentido de identificador segundo além do
 					* dodd-i e dodd-c.                                                                       * 
 					* }
 					{VAZIO}	
@@ -145,11 +146,11 @@ unit estagiario;{unit estagiario;}
 					{FIM-BLOCO}
 					{VAZIO}{VAZIO} 
 					{EXPLICAÇAO:  
-					* hr ou linha satisfatoria de ASC-II design para
+					* <hr/> ou linha satisfatoria de ASC-II design para
 					* separar  o subtitulo de interface do projeto SUmmer:R.
 					* O projeto vem como resposta  e o subtitulo o identifica.
 					* Facil demonstrar o poder de ia como adm em administrar
-					* como esses ifs. esperando sempre compreensao.                                                                    * 
+					* como esses ifs. Esperando sempre compreensao.                                                                    * 
 					* }
 					{VAZIO}
 			        {INICIO-BLOCO} 
