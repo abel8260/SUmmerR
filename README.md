@@ -58,3 +58,41 @@ O.B.S.: lembre de sempre  anotar tudo no adm ia.
 - execute: ./%e
 - compilar: fpc "%f"
 - make object: make %e.o       
+
+
+ ## :office: DOC:
+ 
+-   X   ![imagem](https://img.shields.io/badge/doc-eap%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-itil%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-kpi%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-pdca%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-pmbok%20-blue)
+-   X   ![imagem](https://img.shields.io/badge/doc-google%20-orange) 
+-   X   ![imagem](https://img.shields.io/badge/doc-semrush%20-orange) 
+-   X   ![imagem](https://img.shields.io/badge/doc-sla%20-orange) 
+-   X   ![imagem](https://img.shields.io/badge/doc-smart15%20-blue) 
+-   X   ![imagem](https://img.shields.io/badge/doc-sow%20-blue) 
+
+***
+## Qualidade de software:
+
+- x estruturado; 
+- x qualidade;
+- x orchestral;   
+- x comentarios;
+- x modelo-by-out; 
+
+* X - significa que n foi feito ainda
+      
+### Roadmap:
+
+- WIKI: WIP
+- Newsletter: WIP
+- perfil de projeto(feature-v-8-0): WIP
+- stack e configuraçoes: WIP 
+- documentaçao: WIP
+- Exeplos de uso: https://raw.githubusercontent.com/abel8260/SUmmerR/main/read-mes/exemplos_de_uso.md  
+- how-to: https://raw.githubusercontent.com/abel8260/SUmmerR/main/read-mes/instru%C3%A7%C3%B5es.md
+- grafico da estrutura do database: https://raw.githubusercontent.com/abel8259/SUmmerR/main/YFUUULV.png 
+- O.B.S.: WIP = work in progress
+
