@@ -9,7 +9,7 @@
 
 -  link: https://github.com/abel8259/term_of_privacy_rs_UPDATED
 
-## Termos (1):(sobre o wes)
+## Termos (1):(sobre o wes)(ln 52-60)
 
 <p> sobre  WES  e WESRC </p>
 <p> Esta criptomoeda nao tem fim praticos ou plausivel de cobrança. Se alguém cobra com esta criptomoeda  quer dizer que nao é com a  WES Ou WESRC. Logo pois nao é plausivel de cobrança tao quao para pagamento também. É totalmente fora do WES e WESRC cobrança, pagamento ou coisas nao ficticias com WES e WESRC. 
