@@ -86,7 +86,7 @@ O.B.S.: lembre de sempre  anotar tudo no adm ia.
       
 ### Roadmap:
 
-- WIKI: WIP
+- WIKI: https://github.com/abel8259/SUmmerR/wiki
 - Newsletter: WIP
 - stack e configuraçoes: WIP 
 - documentaçao: WIP
