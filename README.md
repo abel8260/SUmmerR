@@ -88,7 +88,6 @@ O.B.S.: lembre de sempre  anotar tudo no adm ia.
 
 - WIKI: WIP
 - Newsletter: WIP
-- perfil de projeto(feature-v-8-0): WIP
 - stack e configuraçoes: WIP 
 - documentaçao: WIP
 - Exeplos de uso: https://raw.githubusercontent.com/abel8259/SUmmerR/main/read-mes/exemplos_de_uso.md
