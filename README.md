@@ -4,7 +4,7 @@
 <img src="https://i.ibb.co/cCBGC1w/summerr-site.png" alt="summerr-site" border="0">
 
 - Summmer é uma gerenciadora de pacotes .DAT e .REG a serviço de laboratorios para emergencias. Como consulta de soluçao.
-- 
+
 ## Termos (0):(sobre o código e utilizaçao)
 
 -  link: https://github.com/abel8259/term_of_privacy_rs_UPDATED
