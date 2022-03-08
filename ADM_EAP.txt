@@ -1,0 +1,26 @@
+EAP: #####################################----------------------------------------
+
+Por fazer: (ciclo de vida)                --inicio e termino de vida do software--  
+ciclo de vida 1 -  cli                    --cli-cobrando-wes-ficiconal------------  
+ciclo de vida 2 - php                     --php-----------------------------------   
+ciclo de vida 3 - documentaçao            --DOC-----------------------------------  
+ 
+Por entregar:                             --postagem do software principal--------   
+(# TODO)                                  --tarefa=to-do=a-fazer------------------    
+# entrega 1 - dasummer.pas                --pagina-em-html------------------------
+# entrega 2 - dir.pas                     --pagina-em-html------------------------   
+# entrega 3 - estagiario.pas              --aguardando-review---------------------  
+# entrega 4 - estagiarium.pas             --aguardando-review---------------------  
+# entrega 5 - estagiarium.pas             --aguardando-review--------------------- 
+
+Por subprojeto: (mini projeto)            --projeto-dentro-de-projeto-------------
+# - php
+# - cli sem wes
+
+
+todo                                      --tarefa--------------------------------  
+# hst e  estagiarium para review;
+
+
+tipo: hibrida.                             --tipificaçao-------------------------- 
+################################################################################## 
