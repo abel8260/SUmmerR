@@ -25,6 +25,6 @@
 =>-------------------------
 
 #8 concluir----------------
-=> local.Storage in js [no]
+=> php to json or html [no]
 
 ###########################
