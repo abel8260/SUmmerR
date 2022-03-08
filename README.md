@@ -22,7 +22,7 @@
 <p> O WES do software ai: SUmmer:R nao percorre meios fisicos ou outras criptomoedas. É o wes, wesrc e wesio é totalmente totalmente ficticio. Se tratando da criptomoeda WESIO, WES e WESRC. </p>
 
 
- ## :office: DOC:
+ ## :office: DOC:(office 1):
  
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-eap%20-blue)
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-itil%20-blue)
@@ -34,6 +34,10 @@
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-sla%20-orange) 
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-smart15%20-blue) 
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-sow%20-blue) 
+
+ ## :office: metodologia de projeto(ps.DO-IT):(office 1):
+-   [X]   ![imagem](https://img.shields.io/badge/doc-scrum%20-blue) 
+-   [X]   ![imagem](https://img.shields.io/badge/doc-kambam%20-blue) 
 
 ***
 ## Qualidade de software:
