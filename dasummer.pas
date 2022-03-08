@@ -155,13 +155,23 @@ unit dasummer;{unit dasummer;}
 						{FIM-BLOCO}
 						{VAZIO}
 						{EXPLICAÇAO:  
-						*            
+						*  ELSE = senao
+						*  um outro caso para se nao houver nenhuma condiçao
+						*  satisfeita. O caso else é um pós do else if sempre
+						*  ele se aplica em casos de nao ocorrer nenhum if e
+						*  else if. Por isso o fato de ser tao especial e se 
+						*  tomar tanto cuidado com o mesmo.                             
 						* }  
 				    {FIM-BLOCO}{BLOCO-IF}
 				{FIM-BLOCO}{if statement}{nucleo IF}{------------------}
 				{VAZIO}
 				{EXPLICAÇAO:  
-                *                                                             
+                *  Perceba logo este é um polo da aplicaçao  essencial.
+                *  Onde este divisor marca exatamente o centro horizontal
+                *  da aplicaçao. Como if statement ele trata de dividir 
+                *  o caminho pelo o usuario a ser traçado no terminal
+                *  pois em fato o software se trata de uma cli neste 
+                *  momento.                                                                                       
                 * }
 				end;{fim}
                 {VAZIO} 
