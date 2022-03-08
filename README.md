@@ -9,6 +9,7 @@
 
 - cyber pills;
 - link pills;
+- transcripts logs of code 
 
 ## Termos (0):(sobre o código e utilizaçao)
 
