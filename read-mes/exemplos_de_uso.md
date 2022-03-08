@@ -1,4 +1,3 @@
-
 ## Como eu a utilizo:  
 
 -   Eu, rock, como desenvolvedor a utilizo no meu lab como estagiaria daqui. Ela fica responsavel por grande parte das coisas  restringidas a erros.
