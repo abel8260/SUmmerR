@@ -11,7 +11,7 @@ Por entregar:                             --postagem do software principal------
 # entrega 2 - dir.pas                     --pagina-em-html------------------------   
 # entrega 3 - estagiario.pas              --aguardando-review---------------------  
 # entrega 4 - estagiarium.pas             --aguardando-review---------------------  
-# entrega 5 - estagiarium.pas             --aguardando-review--------------------- 
+# entrega 5 - hst.pas                     --aguardando-review--------------------- 
 
 Por subprojeto: (mini projeto)            --projeto-dentro-de-projeto-------------
 # - php
