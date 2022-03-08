@@ -126,7 +126,8 @@ unit dasummer;{unit dasummer;}
 						* de esc guardar um valor igual a  string  'falar'
 						* satisfazendo then a manda para executar o bloco
 						* chamado Menudiadd() chamado também procedudimento
-						* ou procedure.                        
+						* ou procedure.   
+						* Menudiaddm() = como chama procedimento em pascal.                            
 						* }
 						{VAZIO}
 						{INICIO-BLOCO} 

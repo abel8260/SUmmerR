@@ -1,15 +1,16 @@
-unit estagiarium;{unit estagiarium;} 
+unit estagiarium;{unit estagiarium;} {unidade,modulo,biblioteca}  
 {VAZIO} 
 	{EXPLICAÇAO:  
-            * UNIT é a palavra pré-uso do termo de unidade ou módulo
+            * UNIT é uma keyword usada como termo de unidade ou módulo
             * Por se tratar de uma linguagem estruturada, ou modular.
             * É um bloco muito grande de código funcionando como um 
-            * código program normal. Se nao entendeu o parenter de 
-            * program. Program é o termo pré uso do código inicial em 
-            * pascal.                    
+            * código normal em pascal. É unit por tratar-se de unidade     
+            * e nao arvores de bibliotecas em redde online. Se trata
+            * de uma estrutura de código offline rodando sem necessario 
+            * internet.                             
             * }
     {VAZIO} 
-		interface{interface de dialogo do software com o cliente [input e output]}
+		interface{interface parte ligando código e entrada dde dados}
 	{VAZIO} 
 		{EXPLICAÇAO:
 	        * "O termo em Interface é amplo, pode expressar pela 
@@ -20,17 +21,19 @@ unit estagiarium;{unit estagiarium;}
             * }
     {VAZIO} 
 	{INICIO-BLOCO}
-		procedure Menudoestagiarium();{identificador do procedimento} 
+		procedure Menudoestagiarium();{nome do procedimento, proceder ou 
+		espécie de funçao sem retorno } 
     {FIM-BLOCO}
 	{VAZIO} 
 	{EXPLICAÇAO:  
-            * PROCEDURE é a palavra pré-uso desta operaçao em pascal.        
-            * Procedimento é um bloco de código referido de fora dele 
+            * PROCEDURE é a key word(palavra chave) usada nesta 
+            * operaçao em pascal. Procedimento é um bloco de código 
+            * referido de fora dele 
             * nao retornando por si mesmo. O contrario de sua variante                      
             * a funçao. Funçao retorna valores como resultado. 
             * }
 	{VAZIO} 
-	implementation{implementaçao de código}  
+	implementation{aplicaçao ddo código}{implementaçao}{uso do código}  
 	    {VAZIO} 
 	    {EXPLICAÇAO:  
             *  Implementação é a tempo do ciclo de vida de um software 
@@ -53,37 +56,38 @@ unit estagiarium;{unit estagiarium;}
 		{FIM-BLOCO}
 	    {VAZIO}    
 	    {EXPLICAÇAO:  
-            * USES é a palavra pré-uso das bibliotecas de pascal      
+            * USES é a palavra chave usada para as bibliotecas de pascal      
             * por se tratar de uma linguagem modular. O nao é mesmo para
             * sua evoluçao. Neste ponto é interessante fazer a associaçao                
             * do local onde fica  a  string/código citada e o representar 
-            * dela dentro do código.      
+            * dela dentro do código.  string código é a biblioteca tah?         
             * }    
             {VAZIO} 
             {INICIO-BLOCO}
-				procedure Menudoestagiarium();{inicio do procedimento---procedimento --}
+				procedure Menudoestagiarium();{inicio do procedimento---
+				procedimento -- funçao semm retorno}
 			{FIM-BLOCO}
             {VAZIO} 
             {EXPLICAÇAO:  
-            * PROCEDURE é a palavra pré-uso do procedimento em pascal.        
-            * Procedimento é um bloco de código referido de fora dele 
-            * nao retornando por si só. O contrario de sua variante                      
-            * a funçao. Funçao retorna valores como resultados e outros.
-            *  
+            * PROCEDURE é a key word(palavra chave) usada nesta 
+            * operaçao em pascal. Procedimento é um bloco de código 
+            * referido de fora dele 
+            * nao retornando por si mesmo. O contrario de sua variante                      
+            * a funçao. Funçao retorna valores como resultado. 
             * }
 					var esc: string;{VARIAVEIS}
             {VAZIO} 
             {VAZIO} 
 			{EXPLICAÇAO: 
-			* esc é um o nome de um local na memória do pc onde guarda 
-			* uma palavra. Variaveis sao um conceito abstrato porém físico
-			* em termos de harware. Mais termos de hardware seriam necessarios
-			* para explicara especifica funçao dela porém armazenamento de memoria
-			* é o bastante.                                
+			* esc é uma variavel. algo variante entre  os termos a serem
+			* deixados dentro dela. usada para escolher no maximo polo  
+			* ADM da cli e existe outros polos tammbém serao abordadoss 
+			* em muito breve. POlos como polo DB.DAT polo IF. polo 
+			* caracteres e polo I/O.                                                                 
 			* 
 			* }
 			{VAZIO} 
-  BEGIN{INICIO do código do procedimento}
+			BEGIN{INICIO do código do procedimento}
 				{VAZIO}
 			    {INICIO-BLOCO} 
      	            {VAZIO}
@@ -94,10 +98,11 @@ unit estagiarium;{unit estagiarium;}
 					{FIM-BLOCO}	
 					{VAZIO} 
 					{EXPLICAÇAO:  
-					* texto em ASC-II formato de base das strings em pascal
-					* como o termo do menu do estagiario introduzindo o menu
-					* em termos de apresentaçao para o inicio das operaçoes 
-					* basicas de menu nas pilulas file / formato.                                                                 * 
+					*  Segue linhas em asc-II  e linha do meio tem o conteudo 
+					*  do conteudo a frente. No caso o centro do polo ADM da  
+					*  aplicaçao cli (aplicaçao de comando em linha). write 
+					*  escreeve o conteudo em string dentro do parenteses. 
+					*  ln pula umalinha                                                                            * 
 					* }
 					{VAZIO}
 					{VAZIO}
@@ -106,10 +111,11 @@ unit estagiarium;{unit estagiarium;}
 					{FIM-BLOCO}	
 					{VAZIO} 
 					{EXPLICAÇAO:  
-					* texto em ASC-II formato de base das strings em pascal
-					* como o termo do menu do estagiario introduzindo o menu
-					* em termos de apresentaçao para o inicio dos menus pilulas 
-					* basicas de pilulas file / formato.                                                                 * 
+					* apresentaçao da SUmmer:R como adm da base dados  baseada em 
+					* file storage( armazenamento de archivos). SUmmer:R nao é uma 
+					* ia  muito amistosa de se conversar. Só fala o neccessario sempre
+					* lhe tratando como doutor. Se for o desejo seu tratar como doutora
+					* é só alterar o código fonte. É open source  o código é livre.                                                                                              * 
 					* }
 					{VAZIO}
 					{INICIO-BLOCO} 
@@ -121,10 +127,10 @@ unit estagiarium;{unit estagiarium;}
 					{FIM-BLOCO}
 					{VAZIO} 
 					{EXPLICAÇAO:  
-					* estagiario, registros = as fases de pills sao divididas em
-					* estagiario e registros é algo pós polo IF. Se chama polo ADM
-					* iniciando o polo DB.DAT, Onde ficam todos os files da database
-					* enfim da database em si.                                                                                         * 
+					* estagiario, registros =  a resposta estagario leva a uma 
+					* primeira tela de pilulas virtuais como archivo para uso
+					* meio de soluçao inicial. Os registros tipo o IDFIL é algo
+					* mais para frente depois do processo estagiario do polo ADM                                                                                                                   * 
 					* }
 					{VAZIO}
 			        {INICIO-BLOCO} 	
@@ -133,7 +139,7 @@ unit estagiarium;{unit estagiarium;}
 					{FIM-BLOCO}
                     {VAZIO}{VAZIO} 
 					{EXPLICAÇAO:  
-					* I/O parte: input/output(entrada e  saida) de dados 
+					* I/O parte: input/output(entrada e  saida de dados)
 					* especificamente. write  escreve uma linha sem pular
 					* e readln pula  e le uma linha. (read(ler) +ln(linha)(line))
 					* e le especificamente a esc. a viarivel esc é importante 
@@ -146,7 +152,7 @@ unit estagiarium;{unit estagiarium;}
 					* }
 					{VAZIO}
 					    {VAZIO}
-						{INICIO-BLOCO}{BLOCO-IF}  
+						{INICIO-BLOCO}{BLOCO-FIM-IA-ADM}   
 						{VAZIO}
 							if(esc = 'estagiario') then {condiçao} 
 								Menudoestagiario(){modulo Menudoestagiario}
@@ -154,13 +160,12 @@ unit estagiarium;{unit estagiarium;}
 						{FIM-BLOCO}
 						{VAZIO}
 						{EXPLICAÇAO:  
-						*  Logo, veja  havendo aí uma excessao. O else e
-						*  if e primeira excessao condicionada ao else if.
-						*  else if ()= 'ou se (isso funcionar)'
+						*  Logo, veja  havendo aí uma excessao. O if e 
+						*  primeira excessao.'ou se (isso funcionar)'
 						*  No caso o parenteses retorna TRUE  se a variavel
-						*  esc guardar o valor de string 'adm'
-						*  then = entao faça 
-						*  Menuichamada() = como chama procedimento em pascal.            
+						*  esc guardar o valor de string 'estagiario'.
+						*  then = entao faça; 
+						*  Menudoestagiario() = como chama procedimento em pascal.            
 						* }
 					{VAZIO}
 						{VAZIO}
@@ -176,9 +181,9 @@ unit estagiarium;{unit estagiarium;}
 						*  if e primeira excessao condicionada ao else if.
 						*  else if ()= 'ou se (isso funcionar)'
 						*  No caso o parenteses retorna TRUE  se a variavel
-						*  esc guardar o valor de string 'adm'
+						*  esc guardar o valor de string 'registros'.
 						*  then = entao faça 
-						*  Menubbbc() = como chama procedimento em pascal.            
+						*  Menudosregistros() = como chama procedimento em pascal.            
 						* }
 					{VAZIO}
 						{VAZIO}
@@ -196,9 +201,10 @@ unit estagiarium;{unit estagiarium;}
 						*  satisfeita. O caso else é um pós do else if sempre
 						*  ele se aplica em casos de nao ocorrer nenhum if e
 						*  else if. Por isso o fato de ser tao especial e se 
-						*  tomar tanto cuidado com o mesmo.                             
+						*  tomar tanto cuidado com o mesmo. Retornando : 
+						* 'o usuario n digitou a opçao registrada'.                             
 						* }  
-				    {FIM-BLOCO}{BLOCO-IF} 
+				    {FIM-BLOCO}{BLOCO-FIM-IA-ADM} 
 				end;{fim}
                 {VAZIO} 
 			END.{fim}
