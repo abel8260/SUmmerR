@@ -29,9 +29,9 @@
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-kpi%20-blue)
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-pdca%20-blue)
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-pmbok%20-blue)
--   ✔️   ![imagem](https://img.shields.io/badge/doc-google%20-orange) 
--   ✔️   ![imagem](https://img.shields.io/badge/doc-semrush%20-orange) 
--   ✔️   ![imagem](https://img.shields.io/badge/doc-sla%20-orange) 
+-   x  ![imagem](https://img.shields.io/badge/doc-google%20-orange) 
+-   x  ![imagem](https://img.shields.io/badge/doc-semrush%20-orange) 
+-   x   ![imagem](https://img.shields.io/badge/doc-sla%20-orange) 
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-smart15%20-blue) 
 -   ✔️   ![imagem](https://img.shields.io/badge/doc-sow%20-blue) 
 
