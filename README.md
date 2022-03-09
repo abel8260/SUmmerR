@@ -100,7 +100,7 @@
 - WIKI: https://github.com/abel8259/SUmmerR/wiki
 - Newsletter: https://github.com/users/abel8260/projects/10
 - stack e configuraçoes: WIP 
-- documentaçao: WIP
+- documentaçao: https://github.com/abel8260/SUmmerR/tree/main/doc
 - Exeplos de uso: https://raw.githubusercontent.com/abel8259/SUmmerR/main/read-mes/exemplos_de_uso.md
 - how-to: https://raw.githubusercontent.com/abel8259/SUmmerR/main/read-mes/instru%C3%A7%C3%B5es.md
 - grafico da estrutura do database: https://raw.githubusercontent.com/abel8259/SUmmerR/main/YFUUULV.png 
