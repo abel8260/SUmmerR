@@ -1,3 +1,10 @@
+{Nome do algoritmo:Abel vasconcelosB===================================} 
+{Intuito:cria o log diretório==========================================}
+{======================================================================}
+{data: 070322==========================================================}
+{autor: Abel vasconcelosB==============================================}  
+{Tema estagiario de laboratorio e ia===================================} 
+{linguagem: pascal, préDelphi==========================================}
 unit dir;{unit dasummer;} 
 {VAZIO} 
 	{EXPLICAÇAO:  
@@ -202,4 +209,5 @@ unit dir;{unit dasummer;}
 		      {VAZIO}{VAZIO}{VAZIO}
 			END;{fim}{VAZIO}{VAZIO}
 		  {VAZIO}//vazio fim  {VAZIO}
-		end.{fim}
+		end.{fim}{P.S.: me desculpem os erros dde ortografia. meu teclado esta configurado em asc-II
+		e devia estar configurado em utf-8 mas enfim isso nao impede de ensinar e codar.}             

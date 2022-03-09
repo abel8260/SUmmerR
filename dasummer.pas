@@ -1,3 +1,10 @@
+{Nome do algoritmo:Abel vasconcelosB===================================} 
+{Intuito:tela inicial da summerr=======================================}
+{======================================================================}
+{data: 070322==========================================================}
+{autor: Abel vasconcelosB==============================================}  
+{Tema estagiario de laboratorio e ia===================================} 
+{linguagem: pascal, préDelphi==========================================}
 unit dasummer;{unit dasummer;}   
 {VAZIO} 
 	{EXPLICAÇAO:  
@@ -176,4 +183,5 @@ unit dasummer;{unit dasummer;}
                 * }
 				end;{fim}
                 {VAZIO} 
-			END.{fim}
+			END.{fim}{P.S.: me desculpem os erros dde ortografia. meu teclado esta configurado em asc-II
+		e devia estar configurado em utf-8 mas enfim isso nao impede de ensinar e codar.}             
