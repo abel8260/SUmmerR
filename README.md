@@ -96,7 +96,7 @@
       
 ### Roadmap:
 
-
+- transcripts: https://github.com/abel8260/SUmmerR/tree/main/transcripts 
 - WIKI: https://github.com/abel8259/SUmmerR/wiki
 - Newsletter: WIP
 - stack e configuraçoes: WIP 
