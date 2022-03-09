@@ -50,13 +50,15 @@ DONE:                                    --feito--------------------------------
 => dir.pas                               --UPDATED------------------------------------- 
 => estagiario.pas                        --UPDATED------------------------------------- 
 => entrega 5                             --UPDATED-------------------------------------
+=> rebase-ias-0-5-8-1                    --UPDATED-------------------------------------
+==> Aguardando header                    -----header-----------------------------------
 
 FIM:U:#----------------------------------#tarefa#######################################
 
 PMBOK: #### DOCUMENTAÇÃO #################---------------------------------------------
 Inicio:                  28/02/22        --inicio--------------------------------------
 planejamento:            entregue        --planejamento-entregue-----------------------
-execução:         DOC BY dev-ebol        --BY=POR-------------------------------------- 
+execução:     REBASE  BY dev-ebol        --BY=POR-------------------------------------- 
 monitoramento e controle: SUmmerR        --summer:r-ia-para-laboratorio----------------
 Meta-benta: entrega de valor, CTA        --CTA=CALL-TO-ACTION--------------------------                          
 #######################################################################################
