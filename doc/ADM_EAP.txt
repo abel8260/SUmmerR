@@ -9,10 +9,10 @@ Por entregar:                             --postagem do software principal------
 (# TODO)                                  --tarefa=to-do=a-fazer------------------    
 # entrega 1 - dasummer.pas                --pagina-em-html------------------------
 # entrega 2 - dir.pas                     --pagina-em-html------------------------   
-# entrega 3 - estagiario.pas              --aguardando-review---------------------  
-# entrega 4 - estagiarium.pas             --aguardando-review---------------------  
+# entrega 3 - estagiario.pas              --pagina-em-html-------------------------  
+# entrega 4 - estagiarium.pas             --pagina-em-html------------------------
 # entrega 5 - hst.pas                     --aguardando-review--------------------- 
-# tirar o wes do código                   --agaurdando-desenvolvimento------------
+
 
 Por subprojeto: (mini projeto)            --projeto-dentro-de-projeto-------------
 # - php
