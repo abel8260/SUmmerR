@@ -98,7 +98,7 @@
 
 - transcripts: https://github.com/abel8260/SUmmerR/tree/main/transcripts 
 - WIKI: https://github.com/abel8259/SUmmerR/wiki
-- Newsletter: WIP
+- Newsletter: https://github.com/users/abel8260/projects/10
 - stack e configuraçoes: WIP 
 - documentaçao: WIP
 - Exeplos de uso: https://raw.githubusercontent.com/abel8259/SUmmerR/main/read-mes/exemplos_de_uso.md
