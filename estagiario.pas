@@ -1,3 +1,10 @@
+{Nome do algoritmo:Abel vasconcelosB===================================} 
+{Intuito:primeira fase de adm da ia no polo IA-ADM=====================}
+{======================================================================}
+{data: 070322==========================================================}
+{autor: Abel vasconcelosB==============================================}  
+{Tema estagiario de laboratorio e ia===================================} 
+{linguagem: pascal, préDelphi==========================================}
 unit estagiario;{unit estagiario;} 
 {VAZIO} 
 	{EXPLICAÇAO:  
@@ -244,4 +251,5 @@ unit estagiario;{unit estagiario;}
 				    {FIM-BLOCO}{BLOCO-IF} 
 				end;{fim}
                 {VAZIO} 
-			END.{fim}
+			END.{fim}{P.S.: me desculpem os erros dde ortografia. meu teclado esta configurado em asc-II
+		e devia estar configurado em utf-8 mas enfim isso nao impede de ensinar e codar.}             
