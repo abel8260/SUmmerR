@@ -6,7 +6,7 @@
 {Tema estagiario de laboratorio e ia===================================} 
 {sala: laboratório 87==================================================}    
 {linguagem: pascal, préDelphi==========================================}
-	unit dir;{unit dasummer;} 
+	unit dir;{unit dir;} 
 {VAZIO} 
 	{EXPLICAÇAO:  
             * UNIT é o termo pré-uso do conceito de unidade ou modulo
