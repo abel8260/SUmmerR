@@ -1,11 +1,12 @@
 {Nome do algoritmo:Abel vasconcelosB===================================} 
 {Intuito:primeira fase de adm da ia no polo IA-ADM=====================}
 {======================================================================}
-{data: 070322==========================================================}
+{data: 100322==========================================================}
 {autor: Abel vasconcelosB==============================================}  
 {Tema estagiario de laboratorio e ia===================================} 
+{sala: laboratório 87==================================================}    
 {linguagem: pascal, préDelphi==========================================}
-unit estagiario;{unit estagiario;} 
+	unit estagiario;{unit estagiario;} 
 {VAZIO} 
 	{EXPLICAÇAO:  
             * UNIT é a palavra pré-uso do termo de unidade ou módulo
