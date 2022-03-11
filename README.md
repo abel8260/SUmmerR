@@ -84,11 +84,12 @@
 ***
 ## Qualidade de software:
 
-- x estruturado; 
-- x qualidade;
+- ✔️ estruturado; 
+- x qualidade; [10/12]
 - x orchestral;   
 - x comentarios;
-- ✔️ modelo-by-out; 
+- ✔️ modelo-by-out;
+
 * ✔️ - significa que estah ok.  
 
 
