@@ -29,7 +29,7 @@ velocidade de carregamento da pagina----[sem-código-incorporado]----------
 design responsivo-----------------------[ok]------------------------------
 [CHECK][a+]-----------------------------[ok]------------------------------
 
-palavra chave no conteudo---------------só-no-subtitulo--scrum-helper-----
+palavra chave no conteudo---------------[n-ok]----------------------------
 [INDEX][ssd-emergency]------------------lab-assistant---------------------
                        
 ##########################################################################
