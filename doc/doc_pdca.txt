@@ -1,7 +1,7 @@
 ###########################
 
 #1 identificar o problema-- 
-=>-tirar-o-wes-------------  
+=>-tirar-o-wes[no]---------  
 => php to json or html [no]
 
 #2 observar---------------- 
