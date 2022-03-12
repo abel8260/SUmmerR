@@ -1,9 +1,10 @@
 {Nome do algoritmo:Abel vasconcelosB===================================} 
 {Intuito:segunda fase de adm da ia no polo IA-ADM======================}
 {======================================================================}
-{data: 070322==========================================================}
+{data: 100322==========================================================}
 {autor: Abel vasconcelosB==============================================}  
 {Tema estagiario de laboratorio e ia===================================} 
+{sala: laboratório 87==================================================}    
 {linguagem: pascal, préDelphi==========================================}
 unit estagiarium;{unit estagiarium;} {unidade,modulo,biblioteca}  
 {VAZIO} 

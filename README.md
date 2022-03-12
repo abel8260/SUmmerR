@@ -84,26 +84,27 @@
 ***
 ## Qualidade de software:
 
-- x estruturado; 
-- x qualidade;
+- ✔️ estruturado; 
+- x qualidade; [10/12]
 - x orchestral;   
 - x comentarios;
 - ✔️ modelo-by-out; 
+
 * ✔️ - significa que estah ok.  
-
-
 * X - significa que n foi feito ainda
       
 ### Roadmap:
 
 
+- transcripts: https://github.com/abel8260/SUmmerR/tree/main/transcripts 
 - WIKI: https://github.com/abel8259/SUmmerR/wiki
-- Newsletter: WIP
-- stack e configuraçoes: WIP 
-- documentaçao: WIP
+- Newsletter: https://github.com/users/abel8260/projects/10
+- stack e configuraçoes: https://github.com/abel8260/SUmmerR/blob/main/read-mes/instru%C3%A7%C3%B5es.md#stack-configura%C3%A7ao
+- documentaçao: https://github.com/abel8260/SUmmerR/tree/main/doc
 - Exeplos de uso: https://raw.githubusercontent.com/abel8259/SUmmerR/main/read-mes/exemplos_de_uso.md
 - how-to: https://raw.githubusercontent.com/abel8259/SUmmerR/main/read-mes/instru%C3%A7%C3%B5es.md
 - grafico da estrutura do database: https://raw.githubusercontent.com/abel8259/SUmmerR/main/YFUUULV.png 
-- O.B.S.: WIP = work in progress
+
+
 
 

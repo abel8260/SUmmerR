@@ -1,11 +1,12 @@
 {Nome do algoritmo:Abel vasconcelosB===================================} 
 {Intuito:tela inicial da summerr=======================================}
 {======================================================================}
-{data: 070322==========================================================}
+{data: 100322==========================================================}
 {autor: Abel vasconcelosB==============================================}  
 {Tema estagiario de laboratorio e ia===================================} 
+{sala: laboratório 87==================================================}    
 {linguagem: pascal, préDelphi==========================================}
-unit dasummer;{unit dasummer;}   
+	unit dasummer;{unit dasummer;}   
 {VAZIO} 
 	{EXPLICAÇAO:  
             * UNIT é o termo pré-uso do conceito de unidade ou modulo

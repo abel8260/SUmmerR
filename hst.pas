@@ -1,16 +1,26 @@
-unit hst;{unit hst;} 
+{Nome do algoritmo:Abel vasconcelosB===================================} 
+{Intuito:gerar o archive a receber a cópia dos comandos================}
+{======================================================================}
+{data: 080322==========================================================}
+{autor: Abel vasconcelosB==============================================}  
+{Tema estagiario de laboratorio e ia===================================} 
+{linguagem: pascal, préDelphi==========================================}
+{sala: laboratório 87==================================================}
+  unit hst;{unit hst;} 
 {VAZIO} 
+{VAZIO}
 	{EXPLICAÇAO:  
-            * UNIT é o termo pré-uso do conceito de unidade ou modulo
-            * Por se tratar de uma linguagem estruturada, ou modular.
-            * É um bloco muito grande de código funcionando como um 
-            * código program normal. Se nao entendeu o parenter de 
-            * program . Program é o termo pré uso do código inicial em 
-            * pascal.                    
+            * UNIT termo representando unidade modular de código a ser    
+            * referida por outro código. Ou chamado como bloco grande
+            * de codigo a ser representado por outro códio modular ou
+            * programa principal. Esta unit é um m eio também de deixar
+            * seu software mais complexo e robusto de modo a crescer as
+            * funçoes  em temos de funcionalidade.  
             * }
     {VAZIO} 
 	interface{interface de dialogo do software com o cliente I/O} 
 	{VAZIO} 
+	{VAZIO}
 	{EXPLICAÇAO:
 	        * "O conceito de Interface é amplo, pode expressar pela 
 	        * presença de ferramentas para o uso e movimentação de 
@@ -23,15 +33,17 @@ unit hst;{unit hst;}
 		procedure Menulhstlogg();{identificador do procedimento} 
     {FIM-BLOCO}
 	{VAZIO} 
+	{VAZIO}
 	{EXPLICAÇAO:  
-            * PROCEDURE é o termo pré-uso do procedimento em pascal.        
-            * Procedimento é um bloco de código referido de fora dele 
-            * nao retornando por si só. O contrario de sua variante                      
-            * a funçao. Funçao retorna valores
+            * procedure é um tipo de funçao ou bloco referenciado de código
+            * podendo realizar alguma funcionalidade. Porém uma funçao
+            * diferentemente do procedure, uma funçao retorna um valor
+            * No contrario estah a procedure nao retornando nenhum valor
             * }
 	{VAZIO}
 	implementation{implementaçao de código} 
 		{VAZIO} 
+		{VAZIO}
 	    {EXPLICAÇAO:  
             *  Implementação é a fase do ciclo de vida de um software 
             * (programa computacional, documentação e dados), no 
@@ -46,75 +58,83 @@ unit hst;{unit hst;}
             * }
         {VAZIO} 
 	    {INICIO-BLOCO}
-			uses crt, SysUtils; {unidades referidas na pasta}
+			uses crt, SysUtils; {unidades usadas}
 		{FIM-BLOCO}
+	    {VAZIO} 
 	    {VAZIO}    
 	    {EXPLICAÇAO:  
-            * USES é o termo pré-uso das bibliotecas de pascal      
-            * por se tratar de uma linguagem modular. O nao é mesmo para
-            * sua evoluçao. Neste ponto é interessante fazer a associaçao                
-            * do local onde fica  a  string/código citada e o representar 
-            * dela dento do código.      
+            * USES é o termo aspirando as bibliotecas utilizadas em pascal
+            * pré-delphi. Neste ponto é necessario linkar o nome das bibliotecas
+            * utilizadas no código a ser comentado neste lugar. CRT e SYSUTILS 
+            * sao bibliotecas basicas no desenvolvimento  de clis em pascal.
+            * Incluir suas bibliotecas contruidas por voce mesmo é um pratica
+            * bem avançada mas util em termos de otimizaçao de tarefas. Porém 
+            * tentem buscar as bibliotecas do próprio pascal ou fpc. Pois ha muitas
+            * bibliotecas e existe desenvolvimento de jogos no pascal também. Sempre 
+            * relembrado de dar ums verificada  a documentaçao. Eu por exemplo encontrei
+            * o conversorde inteiro pra string numa dessas.
             * }    
             {VAZIO} 
             {INICIO-BLOCO}
 			procedure Menulhstlogg();{inicio do procedimento}
 			{FIM-BLOCO}
             {VAZIO} 
+            {VAZIO} 
             {EXPLICAÇAO:  
-            * PROCEDURE é o termo pré-uso do procedimento em pascal.        
-            * Procedimento é um bloco de código referido de fora dele 
-            * nao retornando por si só. O contrario de sua variante                      
-            * a funçao. Funçao retorna valores            * 
+            * procedure é um tipo de funçao ou bloco referenciado de código
+            * podendo realizar alguma funcionalidade. Porém uma funçao
+            * diferentemente do procedure, uma funçao retorna um valor
+            * No contrario estah a procedure nao retornando nenhum valor.                       
             * }
-			var name_idt : string;{VARIAVEIS}
-				name_idtt : string; {VARIAVEIS}
-				name_idttt : string; {VARIAVEIS}
-				MyFileer: text;{VARIAVEIS}
+			var name_idt : string;{VARIAVEIS}{variam}  
+				name_idtt : string; {VARIAVEIS}{variam}   
+				name_idttt : string; {VARIAVEIS}{variam}  
+				MyFileer: text;{VARIAVEIS}{variam}  
 				{VAZIO}
-				BEGIN {INICIO do código do procedimento}
+				BEGIN {INICIO do código do procedimento utilizado}
 					{VAZIO}
 					{INICIO-BLOCO} 
-						writeln('|folder:processing.');{escreve na tela ***pasta
-						sendo processada***}      
+						writeln('|folder:processing.');{escreve na tela automaticamente
+						*o conteudo **processando pasta**   é o carregamento}      
 						{VAZIO}	
-						writeln('|making the subs for you: ');{fazendo os textos*} 
+						writeln('|making the subs for you: ');{criando subs tipo caracteres 
+						*e realçando  com | escrevendo: criando os subs para voce. É o antigo
+						* processamento de dados ou tel de aguardo do processamento de dados} 
 						{VAZIO}
 	                {FIM-BLOCO}
 	                {VAZIO}
+	                {VAZIO}
 	                {EXPLICAÇAO:  
-					* essas linhas de código descreve o estando a vir das próximas linhas
-					* em processo de sub. pondo se a escrever o texto do sub em diretorio o nome
-					* da respectiva pastaa ser nomeada. A escolha e como uma tag dentro de ua tag
-					* dentro de outra tag. de outra tag terceiraaindachamaa de historico e a segunda 
-					* de log. Mas para o próposito desse código é só o nome da pasta.                                                                   * 
+					* Neste bloco vemos o processo de transiçao de paginas dentro da cli. Exemplo: 
+					* carregamento e processamento. carregamento entre aspas pois ele esta mostrando a cli
+					* esperar pelo processamento de dados  a frente como representaçao de dados e  
+					* historico de criaçao.                                                                                          * 
 					* }
 					{VAZIO}
-						{INICIO-BLOCO} //cripto_process        
+						{INICIO-BLOCO} {INICIO-processo de geraçao de archivos
 							writeln('| name of the folder:');
 							readln(name_idt);
 						{FIM-BLOCO}
 	                    {VAZIO}
 	                    {EXPLICAÇAO:  
-						* lê o nome e escreve a mensagem de algo a ser inserido no input/output do projeto
-						* de código. O processo de crripto n eh colocado nestte espaço de hst.pas .
-						* É só nomear do variavel string do tipo texto e nao caractere se referindo 
-						* ao nome do código texto. salvo em txt. Logo logo se inscrevera em si mesmo o folder
-						* respectivo.                                                                        * 
+
+						* name_idt guarda o nome do archivo de pasta. O nome principal sendo recebido pelo mesmo
+						* mais tarde. o writeln escreve e pula uma linha . write= escreve em ingles. ln pula uma
+						* linha. ln = linha. name of the folder= nome da pasta. read= ler. ln=line= linha em ingles 
+						* e read é ler em ingles.                                                                                                      * 
 						* }
 					{VAZIO}
 					{VAZIO}
-						{INICIO-BLOCO} //cripto_process        
+						{INICIO-BLOCO}        
 							writeln('| log to add of the folder:');
 							readln(name_idtt);
 						{FIM-BLOCO}
 	                    {VAZIO}
 	                    {EXPLICAÇAO:  
-						* lê o nome e escreve a mensagem de algo a ser inserido no input/output do projeto
-						* de código. O processo de crripto n eh colocado nestte espaço de dir.pas .
-						* É só nomear do variavel string do tipo texto e nao caractere se referindo 
-						* ao nome do código texto. salvo em txt. Logo logo se inscrevera em si mesmo o folder
-						* respectivo.                                                                        * 
+						* write é escreve em escrever verbo do ingles write ou writer. Poreém  atente neste momento para
+						* o termo log. Log o conjunto de  logs é um conjunto de comandos em certa fase do tempoN. Neste meio
+						* como um auxiliar de historico onde voce como "doutor" pode coordenar as medidas tomadas como fazer
+						* anotaçoes em ou adicionar variaveis de registros por meio de texto em foldernnlogmmm.txt                    
 						* }
 					{VAZIO}
 					{VAZIO}
@@ -124,11 +144,10 @@ unit hst;{unit hst;}
 						{FIM-BLOCO}
 	                    {VAZIO}
 	                    {EXPLICAÇAO:  
-						* lê o nome e escreve a mensagem de algo a ser inserido no input/output do projeto
-						* de código. O processo de crripto n eh colocado nestte espaço de dir.pas .
-						* É só nomear do variavel string do tipo texto e nao caractere se referindo 
-						* ao nome do código texto. salvo em txt. Logo logo se inscrevera em si mesmo o folder
-						* respectivo.                                                                        * 
+						* No history vocÊ coloca uma cópia do texto gerado em terminal. O numero de vezes de sua preferencia
+						* Serve também como cópia de cópia de compro vante  WES. Lembrando sempre o WES é uma  criptomoeda ficcional
+						* de valor figurativo. Nao podendo ser comercializada de forma alguma. O wes da plataforma wesio é para fins
+						* ficcionais e somente de ficçao. puramente ficcionais.                          
 						* }
 					{VAZIO}
 	
@@ -139,11 +158,10 @@ unit hst;{unit hst;}
 							{FIM-BLOCO}
                         {VAZIO}
                         {EXPLICAÇAO:  
-						* recebe em si mesmo como o conceito c++ ou c= c+1; É um auto incremento de velho e novo estagio
-						* da varivel recomendo estudo de derivadas e cnstantes em calculo I ou caculo infinitesimal.
-						* o assign é um comando associador de titulo de código em texto. mais no sentido file da coisa.
-						* estruturaçao de códigos e enfim. Perceba o nome final ja eh esse o do código a ser interpretado 
-						* como txt.                                                                                                 * 
+						* Este é a linha de comando  onde sera processada o recebimento das variaveis do nome 
+						* e do nome em si. Assinando em MyFile  variavel associada ao archivo a  string name-idt na
+						* segunda vez citada em si mesma. Perceba elafoi citada em si mesma pois um é o valor do passado 
+						* e o outro o novo. O do futuro.                                                                                                                                   
 						* }
 						{VAZIO}
 						{VAZIO}
@@ -152,38 +170,40 @@ unit hst;{unit hst;}
 								reset(MyFileer);
 							{FIM-BLOCO}
 						{VAZIO}
-						{EXPLICAÇAO:  
-						* rewrite inscreve o código o criando-o no workspace do pascal.pasta. chamndo sempre pela 
-						* variavel código texto MyFile. Nao estou podendo escrever ar uivo. mas enfim. vocês entendem
-						* o reset é mais para reabrir e dar acesso. Sao dois comando muito basicos mexendo com códigos
-						* texto em .txt  tanto reinicao reset como abre. Mas atençao ao rewrite. Semal usado pode 
-						* ocasionar perda do respetivo códio texto da database. Procure se fundamentarantes de usar.                                                                                                       * 
+						{EXPLICAÇAO: 
+						* rewrite escreve em si o código o criando o workspace do pascal/pasta. chamando sempre pela 
+						* variavel do código texto MyFileer. Nao estou podendo escrever ar uivo. mas enfim. vocês entendem
+						* o reset é mais para re-abrir e dar acesso. Sao dois comandos muito basicos mexendo com códigos
+						* texto em .txt  tanto reiniciaçao do reset como o abre. Mas atençao no rewrite. Se mal usado pode 
+						* ocasionar perda do respetivo código texto da database. Procure se fundamentar antes de usar. Se 
+						* fundamentar no sentido de buscar informaçao.
 						* }
 						{VAZIO}
 						{VAZIO}
 								writeln('Text read from file: ', name_idt);
 							{FIM-BLOCO}
                         {VAZIO}
-                        {EXPLICAÇAO:  
-						* este writeln(escreve(write)pula linha(ln) )é muito importante dando o feedback entrando ja na parte
+                        {EXPLICAÇAO:
+						* este writeln (escreve --(write) pula linha(--ln) )é muito importante dando o feedback entrando ja na parte
 						* de teste unitarios.Atente sempre com média atençao a isso nao total pois nao merece total atençao mas como 
 						* teste é essencial. No &A existe ferramentas avançadas para teste. como html injector dentre outro como postman
 						* mas para linguagens antigas é ovelho caderno e lapis. Um dos melhores pois é totalmente persozavel e  custom
-						* UI . Uis avançadas at eh nocaderno é possivel vai depender de seus talentos de desenhista ou de escrever por cima.                                                                                                                                                                * 
+						* UI . Uis avançadas at eh no caderno é possivel vai depender de seus talentos de desenhista ou de escrever por cima.                                                                                                                                                                * 
 						* }
 						{VAZIO}
 						{VAZIO}
-							{INICIO-BLOCO}//atacha a variavel de código do código e inscreve no código especifico 
+							{INICIO-BLOCO}//pende a variavel de código no código e inscreve no código especifico 
 							append(MyFileer);
 							writeln(MyFileer, name_idt); 
 						{FIM-BLOCO} 
                         {VAZIO}
-                        {EXPLICAÇAO:  
-						*  o append atacha e o writeln esvre e pula uma lina ddentro do texto/file.      
+                        {EXPLICAÇAO: 
+						*  o append atacha e o writeln escrevre e pula uma linha dentro do texto/file.      
 						*  Neste ponto muito próximo do final os testes de  &A sao otimizadamente 
 						*  necessarios e permitidos como forma de checkin para todo list de teste unitarios
 						*  O código especifico vai depender de sintaxe do seu software . Uma letra errada e é erro.
-						*  Sendo assim ap cienca e persistencia fundamental na vida do dev.                       
+						*  Sendo assim paciencia e persistencia fundamental na vida do dev.                       
+
 						*  }
 						{VAZIO}
 						{VAZIO}
@@ -191,25 +211,24 @@ unit hst;{unit hst;}
 								close(MyFileer);
 							{INICIO-BLOCO}
 						{VAZIO}
-						{EXPLICAÇAO:  
-						*  este comando fecha ediçao teste tudo mesmo. E é digno de erros catastróficos em seu código.
+						{EXPLICAÇAO: 
 						*  Dependendo do projeto um erro nessa escala é bem elemental nao ter. é só colocar close + o 
 						*  nome da variavel do file.a varivel de código texto como chamo. Ele tambbém interrompe 
 						*  inscrições cuidado com multiplos files abertos.                                            
 						*  }
 						{VAZIO}
-		            {FIM-BLOCO}//fim-cripto_process
+		            {FIM-BLOCO}{FIM-processo de geraçao de archivos} 
 		            {EXPLICAÇAO:  
-						*  Este bloco é o responsavel pelo procedimento principal do dir.pas chamdo em interface process.
+						*  Este bloco é o responsavel pelo procedimento principal do dir.pas chamado em interface process.
 						*  Neste ponto vemos o processo de criar um identificador em texto para nome ou tag  de pasta.
 						*  Desde havendo o código temos um processo simples de criaçao de texto podendo se repetir ali o writeln
-						*  caso for de sa vontade fazer um código texto maior.                                                               
+						*  caso for de sua vontade fazer um código texto maior.                                                               
 						*  }
 		        {VAZIO}
 		        {FIM-BLOCO}
 		        {EXPLICAÇAO:  
 						*  Neste ponto temos o código em si próprio. em sua inteiridade funcionando( funfando como dizem os informaticos)
-						*  É neste ponto uma ausa parauma boa avaa çao de ux e criaçao de telas cli para  saber o trajeto e mostrar como funciona 
+						*  É neste ponto uma ausa para uma boa avaliaçao de ux e criaçao de telas cli para  saber o trajeto e mostrar como funciona
 						*  o projeto. Desde anuncio até homolgaçao da as a em criaçao avulsa. Temos writelns ea parte de texto código 
 						*  Unindo-as teos um software criador de files e texto-pasta reminder.                                                                           
 						*  }
@@ -217,4 +236,5 @@ unit hst;{unit hst;}
 		      {VAZIO}{VAZIO}{VAZIO}
 			END;{fim}{VAZIO}{VAZIO}
 		  {VAZIO}//vazio fim  {VAZIO}
-		end.{fim}
+		end.{fim}{P.S.: Me desculpem os erros de ortografia. meu teclado esta configurado em asc-II
+		e devia estar configurado em utf-8 mas enfim isso nao impede de ensinar e codar.}             
