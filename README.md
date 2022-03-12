@@ -88,14 +88,13 @@
 - x qualidade; [10/12]
 - x orchestral;   
 - x comentarios;
-- ✔️ modelo-by-out;
+- ✔️ modelo-by-out; 
 
 * ✔️ - significa que estah ok.  
-
-
 * X - significa que n foi feito ainda
       
 ### Roadmap:
+
 
 - transcripts: https://github.com/abel8260/SUmmerR/tree/main/transcripts 
 - WIKI: https://github.com/abel8259/SUmmerR/wiki
@@ -105,6 +104,7 @@
 - Exeplos de uso: https://raw.githubusercontent.com/abel8259/SUmmerR/main/read-mes/exemplos_de_uso.md
 - how-to: https://raw.githubusercontent.com/abel8259/SUmmerR/main/read-mes/instru%C3%A7%C3%B5es.md
 - grafico da estrutura do database: https://raw.githubusercontent.com/abel8259/SUmmerR/main/YFUUULV.png 
+
 
 
 

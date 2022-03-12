@@ -13,7 +13,6 @@ Por entregar:                             --postagem do software principal------
 # entrega 4 - estagiarium.pas             --pagina-em-html------------------------
 # entrega 5 - hst.pas                     --aguardando-review--------------------- 
 
-
 Por subprojeto: (mini projeto)            --projeto-dentro-de-projeto-------------
 # - php
 # - cli sem wes

@@ -5,8 +5,8 @@
 {autor: Abel vasconcelosB==============================================}  
 {Tema estagiario de laboratorio e ia===================================} 
 {linguagem: pascal, préDelphi==========================================}
-  
-unit hst;{unit hst;} 
+{sala: laboratório 87==================================================}
+  unit hst;{unit hst;} 
 {VAZIO} 
 {VAZIO}
 	{EXPLICAÇAO:  
@@ -38,7 +38,7 @@ unit hst;{unit hst;}
             * procedure é um tipo de funçao ou bloco referenciado de código
             * podendo realizar alguma funcionalidade. Porém uma funçao
             * diferentemente do procedure, uma funçao retorna um valor
-            * No contrario estah a procedure nao retornando nenhum valor.                       
+            * No contrario estah a procedure nao retornando nenhum valor
             * }
 	{VAZIO}
 	implementation{implementaçao de código} 
@@ -72,7 +72,7 @@ unit hst;{unit hst;}
             * tentem buscar as bibliotecas do próprio pascal ou fpc. Pois ha muitas
             * bibliotecas e existe desenvolvimento de jogos no pascal também. Sempre 
             * relembrado de dar ums verificada  a documentaçao. Eu por exemplo encontrei
-            * o conversorde inteiro pra string numa dessas.                                             
+            * o conversorde inteiro pra string numa dessas.
             * }    
             {VAZIO} 
             {INICIO-BLOCO}
@@ -111,12 +111,13 @@ unit hst;{unit hst;}
 					* historico de criaçao.                                                                                          * 
 					* }
 					{VAZIO}
-						{INICIO-BLOCO} {INICIO-processo de geraçao de archivos}           
+						{INICIO-BLOCO} {INICIO-processo de geraçao de archivos
 							writeln('| name of the folder:');
 							readln(name_idt);
 						{FIM-BLOCO}
 	                    {VAZIO}
 	                    {EXPLICAÇAO:  
+
 						* name_idt guarda o nome do archivo de pasta. O nome principal sendo recebido pelo mesmo
 						* mais tarde. o writeln escreve e pula uma linha . write= escreve em ingles. ln pula uma
 						* linha. ln = linha. name of the folder= nome da pasta. read= ler. ln=line= linha em ingles 
@@ -160,7 +161,7 @@ unit hst;{unit hst;}
 						* Este é a linha de comando  onde sera processada o recebimento das variaveis do nome 
 						* e do nome em si. Assinando em MyFile  variavel associada ao archivo a  string name-idt na
 						* segunda vez citada em si mesma. Perceba elafoi citada em si mesma pois um é o valor do passado 
-						* e o outro o novo. O do futuro.                                                                                                                                       * 
+						* e o outro o novo. O do futuro.                                                                                                                                   
 						* }
 						{VAZIO}
 						{VAZIO}
@@ -169,20 +170,20 @@ unit hst;{unit hst;}
 								reset(MyFileer);
 							{FIM-BLOCO}
 						{VAZIO}
-						{EXPLICAÇAO:  
+						{EXPLICAÇAO: 
 						* rewrite escreve em si o código o criando o workspace do pascal/pasta. chamando sempre pela 
 						* variavel do código texto MyFileer. Nao estou podendo escrever ar uivo. mas enfim. vocês entendem
 						* o reset é mais para re-abrir e dar acesso. Sao dois comandos muito basicos mexendo com códigos
 						* texto em .txt  tanto reiniciaçao do reset como o abre. Mas atençao no rewrite. Se mal usado pode 
 						* ocasionar perda do respetivo código texto da database. Procure se fundamentar antes de usar. Se 
-						* fundamentar no sentido de buscar informaçao.                                                                                                              * 
+						* fundamentar no sentido de buscar informaçao.
 						* }
 						{VAZIO}
 						{VAZIO}
 								writeln('Text read from file: ', name_idt);
 							{FIM-BLOCO}
                         {VAZIO}
-                        {EXPLICAÇAO:  
+                        {EXPLICAÇAO:
 						* este writeln (escreve --(write) pula linha(--ln) )é muito importante dando o feedback entrando ja na parte
 						* de teste unitarios.Atente sempre com média atençao a isso nao total pois nao merece total atençao mas como 
 						* teste é essencial. No &A existe ferramentas avançadas para teste. como html injector dentre outro como postman
@@ -196,12 +197,13 @@ unit hst;{unit hst;}
 							writeln(MyFileer, name_idt); 
 						{FIM-BLOCO} 
                         {VAZIO}
-                        {EXPLICAÇAO:  
+                        {EXPLICAÇAO: 
 						*  o append atacha e o writeln escrevre e pula uma linha dentro do texto/file.      
 						*  Neste ponto muito próximo do final os testes de  &A sao otimizadamente 
 						*  necessarios e permitidos como forma de checkin para todo list de teste unitarios
 						*  O código especifico vai depender de sintaxe do seu software . Uma letra errada e é erro.
 						*  Sendo assim paciencia e persistencia fundamental na vida do dev.                       
+
 						*  }
 						{VAZIO}
 						{VAZIO}
@@ -209,8 +211,7 @@ unit hst;{unit hst;}
 								close(MyFileer);
 							{INICIO-BLOCO}
 						{VAZIO}
-						{EXPLICAÇAO:  
-						*  Este comando fecha a ediçao. E é digno de erros catastróficos em seu código.
+						{EXPLICAÇAO: 
 						*  Dependendo do projeto um erro nessa escala é bem elemental nao ter. é só colocar close + o 
 						*  nome da variavel do file.a varivel de código texto como chamo. Ele tambbém interrompe 
 						*  inscrições cuidado com multiplos files abertos.                                            
@@ -227,7 +228,7 @@ unit hst;{unit hst;}
 		        {FIM-BLOCO}
 		        {EXPLICAÇAO:  
 						*  Neste ponto temos o código em si próprio. em sua inteiridade funcionando( funfando como dizem os informaticos)
-						*  É neste ponto uma ausa para uma boa avaliaçao de ux e criaçao de telas cli para  saber o trajeto e mostrar como funciona 
+						*  É neste ponto uma ausa para uma boa avaliaçao de ux e criaçao de telas cli para  saber o trajeto e mostrar como funciona
 						*  o projeto. Desde anuncio até homolgaçao da as a em criaçao avulsa. Temos writelns ea parte de texto código 
 						*  Unindo-as teos um software criador de files e texto-pasta reminder.                                                                           
 						*  }
